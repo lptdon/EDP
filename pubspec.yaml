@@ -1,0 +1,16 @@
+name: database
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  infgety_database:
+    git:
+      url: https://github.com/PSHTeam/infgety_database.git
+  
+
+infgety:
+  identifier: drdata.arabcaller
+  version: 30.0.0+81
